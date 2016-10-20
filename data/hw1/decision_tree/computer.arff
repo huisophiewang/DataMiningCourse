@@ -1,0 +1,23 @@
+@relation computer.symbolic
+
+@attribute age {youth, mid-aged, senior}
+@attribute income {high, medium, low}
+@attribute student {yes, no}
+@attribute credit {fair, excellent}
+@attribute buy_computer {yes, no}
+
+@data
+youth,high,no,fair,no
+youth,high,no,excellent,no
+mid-aged,high,no,fair,yes
+senior,medium,no,fair,yes
+senior,low,yes,fair,yes
+senior,low,yes,excellent,no
+mid-aged,low,yes,excellent,yes
+youth,medium,no,fair,no
+youth,low,yes,fair,yes
+senior,medium,yes,fair,yes
+youth,medium,yes,excellent,yes
+mid-aged,medium,no,excellent,yes
+mid-aged,high,yes,fair,yes
+senior,medium,no,excellent,no
